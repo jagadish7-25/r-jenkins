@@ -3,8 +3,8 @@
   roles:
     - jenkins
   vars:
-    mjobs:
-      - {job_name: "cart", repo_name: " https://github.com/jagadish7-25/cart.git" }
+    mjob:
+      - {job_name: "cart", repo_name: "https://github.com/jagadish7-25/cart.git" }
 
-    sjobs:
-      - {job_name: "jenkins", repo_name: "https://github.com/jagadish7-25/jenkins.git"}
+    sjob:
+      - {job_name: "jenkins",repo_name: "https://github.com/jagadish7-25/jenkins.git"}
